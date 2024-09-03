@@ -15,12 +15,12 @@ In this project, I built a honeynet consisting of two virtual machines in Azure 
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+![image](https://github.com/user-attachments/assets/f1a56169-938b-46e6-8e3a-01b03de312fe)
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
+![image](https://github.com/user-attachments/assets/21bb7694-0278-4dfd-909f-4f571430b507)
 
-The architecture of the mini honeynet in Azure consists of the following components:
+The architecture of the honeynet in Azure consists of the following components:
 
 - Virtual Network (VNet)
 - Network Security Group (NSG)
