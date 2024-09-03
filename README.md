@@ -32,7 +32,7 @@ The architecture of the honeynet in Azure consists of the following components:
 
 All resources deployed were exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources were deployed with public endpoints visible to the Internet. 
 
-For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
+After exposing the virtual machines for 24 hours, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint. 
 
 ## Attack Maps Before Hardening / Security Controls
 
